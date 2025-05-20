@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Layout</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo-title">
+            <div class="logo"><img src="./Img/logo.png"></div>
+            <h1 class="title"> Xenzy Store</h1>
+        </div>
+        <div class="nav-container">
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <nav class="nav">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="#" class="nav-item">Group</a>
+                <a href="#" class="nav-item">Help</a>
+                <a href="#" class="nav-item">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <section class="welcome-section animate">
+  <div class="welcome-content">
+    <img src="./Img/ChatGPT Image May 20, 2025, 03_10_01 PM.png" alt="Welcome Image" class="welcome-img">
+  </div>
+</section>
+
+
+    <section class="announcement-slide">
+        <h2 class="slider-heading">Announcements</h2>
+        <button class="announ-btn prev" onclick="moveAnnounSlide(-1)">❮</button>
+        <div class="announ-slider-container">
+            <div class="announ-slider">
+                <div class="announ-slide">
+                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Announcement 1">
+                    <p>Dragon-Permanent Give Away <br/> Time 11May-12June</p>
+                </div>
+                <div class="announ-slide">
+                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Announcement 2">
+                    <p>Limited Time Offer: 20% Off Robux!</p>
+                </div>
+            </div>
+        </div>
+        <button class="announ-btn next" onclick="moveAnnounSlide(1)">❯</button>
+    </section>
+
+    <section class="image-slide">
+        <h2 class="slider-heading">Hot Stock-Main</h2>
+        <button class="slider-btn prev" onclick="moveImageSlide(-1)">❮</button>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="./Img/testmain.jpg" alt="Slide 1">
+                    <a href="https://example.com" class="slide-button">Click Me</a>
+                </div>
+                <div class="slide">
+                    <img src="./Img/textMain.jpg" alt="Slide 2">
+                    <a href="https://example.com" class="slide-button">Click Me</a>
+                </div>
+                <div class="slide">
+                    <img src="./Img/testmain.jpg" alt="Slide 3">
+                    <a href="https://example.com" class="slide-button">Click Me</a>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn next" onclick="moveImageSlide(1)">❯</button>
+    </section>
+
+    <section class="category">
+        <div class="category-item">
+            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Bloxfruit Main Icon">
+            <span class="category-title">Bloxfruit Main</span>
+            <a href="https://example.com" class="category-button">View More</a>
+        </div>
+        <div class="category-item">
+            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="BloxFruit Random Icon">
+            <span class="category-title">BloxFruit Random</span>
+            <a href="https://example.com" class="category-button">View More</a>
+        </div>
+        <div class="category-item">
+            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="BloxFruit-Mini Icon">
+            <span class="category-title">BloxFruit-Mini</span>
+            <a href="https://example.com" class="category-button">View More</a>
+        </div>
+        <div class="category-item">
+            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Robux Icon">
+            <span class="category-title">Robux</span>
+            <a href="https://example.com" class="category-button">View More</a>
+        </div>
+    </section>
+    <h3>Our Telegram-Group </h3>
+    <section class="image-section">
+        <div class="img">
+            <img src="./Img/Screenshot 2025-05-20 152700.png"  class="Group-img" alt="Placeholder Image">
+        </div>
+    <section class="link-section">
+        <a href="https://example.com" class="link">Join</a>
+    </section>
+    </section>
+        <section class="image-section">
+        <div class="img">
+            <img src="./Img/Screenshot 2025-05-20 152700.png"  class="Group-img" alt="Placeholder Image">
+        </div>
+    <section class="link-section">
+        <a href="https://example.com" class="link">Join</a>
+    </section>
+    </section>
+    <footer class="footer">
+        <h3>XenzyShop</h3>
+        <p>Discover the best deals on Blox Fruits and Robux at XenzyShop! © 2025 XenzyShop. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
