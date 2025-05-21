@@ -261,7 +261,7 @@ body {
 }
 
 .announ-slider-container, .slider-container {
-  width: 90%;
+  width: 70%;
   max-width: 800px;
   overflow: hidden;
   margin: 0 auto;
@@ -668,4 +668,84 @@ h3 {
 
 .imgGroup{
   height: 300px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem; /* Adjust padding for smaller screens */
+    flex-wrap: nowrap; /* Prevent wrapping of header items */
+  }
+
+  .logo-title {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 1002;
+    flex-shrink: 0; /* Prevent hamburger from shrinking */
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position directly below header */
+    right: 0; /* Align to right edge */
+    background: linear-gradient(135deg, #0a192f, #1e3a8a);
+    padding: 1rem;
+    border: 2px solid #047857;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.5);
+    width: 180px; /* Slightly smaller width for mobile */
+    z-index: 1001;
+  }
+
+  .nav.show {
+    display: flex;
+    flex-direction: column;
+    right: 0; /* Ensure it stays right-aligned */
+    top: 100%; /* Stay below header */
+    transform: translateY(0); /* Prevent vertical shift */
+    opacity: 1;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; /* Spacing for nav items */
+  }
+}
+
+@media (max-width: 438px) {
+  .header {
+    padding: 0.8rem 1rem; /* Tighter padding for very small screens */
+    flex-wrap: nowrap; /* Explicitly prevent wrapping */
+  }
+
+  .logo-title {
+    font-size: 1.5rem; /* Reduce logo size slightly */
+  }
+
+  .logo {
+    font-size: 1.8rem; /* Adjust logo font size */
+    padding: 0.3rem 0.8rem; /* Tighter padding */
+  }
+
+  .hamburger {
+    font-size: 1.5rem; /* Smaller hamburger icon */
+    padding: 0.3rem;
+  }
+
+  .nav {
+    width: 150px; /* Even smaller width for tiny screens */
+    right: 0; /* Reinforce right alignment */
+    top: calc(100% + 5px); /* Small offset to avoid overlap */
+  }
+
+  .nav.show {
+    right: 0;
+    top: calc(100% + 5px); /* Consistent positioning */
+  }
 }
