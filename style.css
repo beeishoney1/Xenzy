@@ -724,3 +724,18 @@ h3{
     top: calc(100% + 5px); /* Consistent positioning */
   }
 }
+
+.announcement-slide{
+  background: url(./Img/logo.png) no-repeat center center/cover;
+}
+
+.image-slide{
+  background: url(./Img/logo.png) no-repeat center center/cover;
+}
+
+.category{
+  background: url(./Img/logo.png) no-repeat center center/cover;
+}
+.image-section.group-section{
+  background: url(./Img/logo.png) no-repeat center center/cover;
+}
