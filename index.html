@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wireframe Layout</title>
+    <title>Xenzy Store</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header class="header">
         <div class="logo-title">
-            <div class="logo"><img src="./Img/logo.png"></div>
-            <h1 class="title"> Xenzy Store</h1>
+            <img src="./Img/logo.png" alt="Logo" class="logo-img">
+            <span class="logo">Xenzy Store</span>
         </div>
         <div class="nav-container">
             <button class="hamburger" onclick="toggleMenu()">☰</button>
@@ -25,92 +23,90 @@
             </nav>
         </div>
     </header>
-    <section class="welcome-section animate">
+       <section class="welcome-section animate">
   <div class="welcome-content">
     <img src="./Img/ChatGPT Image May 20, 2025, 03_10_01 PM.png" alt="Welcome Image" class="welcome-img">
   </div>
 </section>
 
-
     <section class="announcement-slide">
-        <h2 class="slider-heading">Announcements</h2>
-        <button class="announ-btn prev" onclick="moveAnnounSlide(-1)">❮</button>
+        <h2 class="slider-heading animate">Announcements</h2>
         <div class="announ-slider-container">
+            <button class="announ-btn prev" onclick="moveAnnounSlide(-1)">❮</button>
             <div class="announ-slider">
-                <div class="announ-slide">
-                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Announcement 1">
-                    <p>Dragon-Permanent Give Away <br/> Time 11May-12June</p>
+                <div class="announ-slide animate">
+                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Dragon Giveaway">
+                    <p>Dragon-Permanent Give Away <br> Time 11May-12June</p>
                 </div>
-                <div class="announ-slide">
-                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Announcement 2">
+                <div class="announ-slide animate">
+                    <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Robux Offer">
                     <p>Limited Time Offer: 20% Off Robux!</p>
                 </div>
             </div>
+            <button class="announ-btn next" onclick="moveAnnounSlide(1)">❯</button>
         </div>
-        <button class="announ-btn next" onclick="moveAnnounSlide(1)">❯</button>
     </section>
 
     <section class="image-slide">
-        <h2 class="slider-heading">Hot Stock-Main</h2>
-        <button class="slider-btn prev" onclick="moveImageSlide(-1)">❮</button>
+        <h2 class="slider-heading animate">Hot Stock-Main</h2>
         <div class="slider-container">
+            <button class="slider-btn prev" onclick="moveImageSlide(-1)">❮</button>
             <div class="slider">
-                <div class="slide">
-                    <img src="./Img/testmain.jpg" alt="Slide 1">
-                    <a href="https://example.com" class="slide-button">Click Me</a>
+                <div class="slide animate">
+                    <img src="./Img/testmain1.jpg" alt="Stock 1">
+                    <a href="#" class="slide-button">Click Me</a>
                 </div>
-                <div class="slide">
-                    <img src="./Img/textMain.jpg" alt="Slide 2">
-                    <a href="https://example.com" class="slide-button">Click Me</a>
+                <div class="slide animate">
+                    <img src="./Img/testmain1.jpg" alt="Stock 2">
+                    <a href="#" class="slide-button">Click Me</a>
                 </div>
-                <div class="slide">
-                    <img src="./Img/testmain.jpg" alt="Slide 3">
-                    <a href="https://example.com" class="slide-button">Click Me</a>
+                <div class="slide animate">
+                    <img src="./Img/testmain1.jpg" alt="Stock 3">
+                    <a href="#" class="slide-button">Click Me</a>
                 </div>
             </div>
+            <button class="slider-btn next" onclick="moveImageSlide(1)">❯</button>
         </div>
-        <button class="slider-btn next" onclick="moveImageSlide(1)">❯</button>
     </section>
 
     <section class="category">
-        <div class="category-item">
-            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Bloxfruit Main Icon">
-            <span class="category-title">Bloxfruit Main</span>
-            <a href="https://example.com" class="category-button">View More</a>
+        <div class="category-item animate">
+            <img src="./Img/bloxfruitMainlogo.jpg" alt="Bloxfruit Main">
+            <a href="#" class="category-button">View </a>
         </div>
-        <div class="category-item">
-            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="BloxFruit Random Icon">
-            <span class="category-title">BloxFruit Random</span>
-            <a href="https://example.com" class="category-button">View More</a>
+        <div class="category-item animate">
+            <img src="./Img/bloxfruitMainlogo.jpg" alt="BloxFruit Random">
+            <a href="#" class="category-button">View </a>
         </div>
-        <div class="category-item">
-            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="BloxFruit-Mini Icon">
-            <span class="category-title">BloxFruit-Mini</span>
-            <a href="https://example.com" class="category-button">View More</a>
+        <div class="category-item animate">
+            <img src="./Img/bloxfruitMainlogo.jpg" alt="BloxFruit-Mini">
+            <a href="#" class="category-button">View </a>
         </div>
-        <div class="category-item">
-            <img src="./Img/photo_2025-05-20_15-15-51.jpg" alt="Robux Icon">
-            <span class="category-title">Robux</span>
-            <a href="https://example.com" class="category-button">View More</a>
+        <div class="category-item animate">
+            <img src="./Img/bloxfruitMainlogo.jpg" alt="Robux">
+            <a href="#" class="category-button">View </a>
         </div>
     </section>
-    <h3>Our Telegram-Group </h3>
-    <section class="image-section">
-        <div class="img">
-            <img src="./Img/Screenshot 2025-05-20 152700.png"  class="Group-img" alt="Placeholder Image">
+
+    <section class="image-section group-section">
+        <h3>Join Our Telegram-Group</h3>
+        <div class="img animate imgGroup">
+            <img src="./Img/group2.jpg" alt="Telegram Group" class="Group-img">
         </div>
-    <section class="link-section">
-        <a href="https://example.com" class="link">Join</a>
-    </section>
-    </section>
-        <section class="image-section">
-        <div class="img">
-            <img src="./Img/Screenshot 2025-05-20 152700.png"  class="Group-img" alt="Placeholder Image">
+        <div class="link-section">
+            <a href="#" class="link">Join</a>
         </div>
-    <section class="link-section">
-        <a href="https://example.com" class="link">Join</a>
     </section>
+
+    <section class="image-section group-section">
+        <div class="img animate imgGroup">
+            <img src="./Img/Group3.png" alt="Discord Group" class="Group-img">
+        </div>
+        <div class="link-section">
+            <a href="#" class="link">Join</a>
+        </div>
     </section>
+
     <footer class="footer">
         <h3>XenzyShop</h3>
         <p>Discover the best deals on Blox Fruits and Robux at XenzyShop! © 2025 XenzyShop. All rights reserved.</p>
@@ -122,3 +118,4 @@
     <script src="./app.js"></script>
 </body>
 </html>
+
