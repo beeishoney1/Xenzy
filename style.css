@@ -585,42 +585,17 @@ body {
   }
 }
 
-h3 {
+h3{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: transparent;
-  background: linear-gradient(90deg, #38bdf8, #facc15);
+  background: linear-gradient(90deg, #1d90c2, #2ca4cb);
   -webkit-background-clip: text;
   background-clip: text;
-  text-shadow: 0 0 10px rgba(250, 204, 21, 0.5);
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid #047857;
-  border-radius: 10px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.5), 0 0 5px rgba(109, 40, 217, 0.4);
 }
 
-h3::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('https://www.transparenttextures.com/patterns/wavecut.png');
-  opacity: 0.15;
-  z-index: 0;
-  border-radius: 10px;
-}
-
-h3 {
-  z-index: 1;
-}
 .animate {
   animation: fadeSlideIn 0.8s ease-out forwards;
   opacity: 0;
