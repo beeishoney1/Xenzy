@@ -754,35 +754,3 @@ h3{
   background: url(./Img/main4blur.jpg) no-repeat center center/cover;
 }
 
-@media (max-width: 480px) {
-  .category {
-    grid-template-columns: 1fr !important;
-    padding: 1rem 0.5rem;
-  }
-
-  .category-item {
-    max-width: 100%;
-    height: auto;
-    padding: 1rem;
-  }
-
-  .category-item img {
-    height: auto;
-    width: 100%;
-  }
-
-  .category-button {
-    padding: 0.5rem 1rem;
-    font-size: 0.85rem;
-  }
-
-  .footer {
-    font-size: 0.85rem;
-    padding: 1rem;
-  }
-
-  .modal-box {
-    width: 90%;
-    font-size: 0.9rem;
-  }
-}
